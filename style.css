@@ -1,0 +1,63 @@
+body{
+background-color: green;
+}
+#output-area{
+    font-size: 75pt;
+    position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); 
+            
+}
+
+#winner-area {
+    font-size: 25pt;
+    position: absolute;
+    top: 83%;
+    left: 29%;
+    color: white;
+    }
+    
+    #stay-button {
+            top: 90%;
+            left: 54%;
+           
+    }
+    #hit-button{
+        top: 90%;
+        left: 40%;
+    }
+    #hit-button,    #stay-button{
+        position: absolute;
+        width:80px;
+        height:50px; 
+        font-size: 14px; 
+    } 
+
+button{
+    border: solid 2px white;  
+    background-color: green;
+    color:white;
+    border-radius: 20px;
+     /*box shadow*/
+     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+    #newgame-button{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width:150px;
+            height:70px; 
+            font-size: 20px;  
+       
+    }
+
+    h1 {
+        color:white;
+        font-size: 70px;
+        text-align: center;
+        margin:20px;
+    }
